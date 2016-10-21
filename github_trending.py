@@ -9,7 +9,7 @@ def get_starting_date(time_period):
 
 def get_trending_repositories(top_size, time_period):
     request = \
-    requests.get('https://api.github.com/search/repositories?q=created:>%s&sort=stars&per_page=%d' \
+    requests.get('https://api.github.com/search/repositories?q=created:>%s&sort=stars&per_page=%d'
         % (get_starting_date(time_period), top_size))
     return request.json()["items"]
 
