@@ -5,7 +5,9 @@
 
 ## Использование
 Ввести в терминале для запуска:
+
     github_trending.py
   
 ## Для работы python 3 с HTTP необходимо установить данный пакет:
+    
     https://pypi.python.org/pypi/requests
